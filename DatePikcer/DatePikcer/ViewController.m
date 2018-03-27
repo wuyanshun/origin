@@ -20,6 +20,8 @@
     [super viewDidLoad];
     
     
+    NSLog(@"这是一个小问题");
+    
     NSLog(@"1");
     dispatch_async(dispatch_get_main_queue(), ^{
         NSLog(@"2");
